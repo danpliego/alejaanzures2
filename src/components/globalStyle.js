@@ -2,33 +2,22 @@ import { createGlobalStyle } from "styled-components";
 import { theme } from "./theme";
 
 // eslint-disable-next-line
-const OGG = require("../fonts/Ogg-Roman.woff2");
+const GTWalsheim = require("../fonts/gt-walsheim-web.ttf");
 // eslint-disable-next-line
-const OGGItalic = require("../fonts/Ogg-Italic.woff2");
-
-// eslint-disable-next-line
-const AktivGrotesk = require("../fonts/AktivGrotesk-Regular.woff2");
+const NoeDisplay = require("../fonts/noe-display-bold.ttf");
 
 export const GlobalStyle = createGlobalStyle`
   @font-face {
-    font-family: "Ogg";
+    font-family: "GT Walsheim";
     font-style: normal;
     font-weight: 400;
-    src: url(${OGG});
+    src: url(${GTWalsheim});
   }
 
   @font-face {
-    font-family: "Ogg";
-    font-style: italic;
+    font-family: "Noe Display";
     font-weight: 400;
-    src: url(${OGGItalic});
-  }
-
-  @font-face {
-    font-family: "Aktiv Grotesk";
-    font-style: italic;
-    font-weight: 400;
-    src: url(${AktivGrotesk});
+    src: url(${NoeDisplay});
   }
 
   :root {
@@ -45,7 +34,7 @@ export const GlobalStyle = createGlobalStyle`
     -webkit-text-size-adjust: 100%;
     touch-action: manipulation;
     overflow: hidden;
-    background: #F8F5F1;
+    background: #F1ECE4;
   }
   
   body {
@@ -119,7 +108,8 @@ export const GlobalStyle = createGlobalStyle`
     line-height: 120%;
     margin-top: 0;
     margin-bottom: 1rem;
-    font-family: "Ogg";
+    font-family: "Noe Display";
+    font-weight: 100;
   }
 
   h1 {
@@ -304,7 +294,7 @@ export const GlobalStyle = createGlobalStyle`
   }
   body {
     color: #000;
-    font-family: "Aktiv Grotesk", sans-serif;
+    font-family: "GT Walsheim", sans-serif;
     font-weight: normal;
     word-wrap: break-word;
     font-kerning: normal;

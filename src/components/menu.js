@@ -1,40 +1,23 @@
 import React from "react";
-import { FlexAlignChild } from "./layoutComponents";
+import { FlexAlignChild, Flex1 } from "./layoutComponents";
 import { Link } from "gatsby";
 import styled from "styled-components";
 
-import Logo from "../images/logo.svg";
-import Dribbble from "../images/dribbble.svg";
-import Linkedin from "../images/linkedin.svg";
+// import Logo from "../images/logo.svg";
 import { theme } from "./theme";
 
 const Menu = () => (
   <MenuContainer>
-    <LogoContainer>
-      <Link to="/">
-        <img src={Logo} />
-      </Link>
-    </LogoContainer>
+    <Flex1></Flex1>
     <MenuRight>
       <MenuItem to="#work" className="hide-mobile">
         Work
       </MenuItem>
       <MenuItem to="#about" className="hide-mobile">
-        About Me
+        Acerca de mi
       </MenuItem>
       <MenuItem as="a" href="mailto:danielpliego@gmail.com">
-        Contact
-      </MenuItem>
-      {/* <MenuItem to="/">Español</MenuItem> */}
-      <MenuItem as="a" href="https://dribbble.com/danpliego" target="_blank">
-        <img src={Dribbble} />
-      </MenuItem>
-      <MenuItem
-        as="a"
-        href="https://www.linkedin.com/in/daniel-pliego-183bbb53/"
-        target="_blank"
-      >
-        <img src={Linkedin} />
+        Contacto
       </MenuItem>
     </MenuRight>
   </MenuContainer>
@@ -49,21 +32,8 @@ const MenuContainer = styled(FlexAlignChild)`
   max-width: 1200px;
 `;
 
-const LogoContainer = styled.div`
-  flex: 1;
-`;
-
 export const MenuRight = styled(FlexAlignChild)`
   position: relative;
-
-  &:before {
-    content: " ";
-    position: absolute;
-    width: 3rem;
-    height: 1px;
-    background: #000;
-    left: -4rem;
-  }
 `;
 export const MenuItem = styled(Link)`
   padding: 1rem 1.5rem;

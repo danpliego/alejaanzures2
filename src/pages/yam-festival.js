@@ -6,7 +6,7 @@ import { ProjectLayout, ProjectColumn } from "../components/projectLayout";
 import * as Comp from "../components/layoutComponents";
 
 // eslint-disable-next-line
-const Yam1 = require("../images/projects/yam/yam-1.jpg");
+// const Yam1 = require("../images/projects/yam/yam-1.jpg");
 
 const IndexPage = () => (
   <Layout>
@@ -38,9 +38,7 @@ const IndexPage = () => (
       }
     >
       <Comp.Row padded>
-        <ProjectColumn padded>
-          <img src={Yam1} />
-        </ProjectColumn>
+        <ProjectColumn padded>{/* <img src={Yam1} /> */}</ProjectColumn>
       </Comp.Row>
     </ProjectLayout>
   </Layout>

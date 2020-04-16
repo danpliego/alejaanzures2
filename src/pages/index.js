@@ -4,7 +4,7 @@ import Layout from "../components/layout";
 import SEO from "../components/seo";
 import * as Comp from "../components/layoutComponents";
 import Hero from "../components/hero";
-import { HomeProjects } from "../components/homeProjects";
+// import { HomeProjects } from "../components/homeProjects";
 import Menu from "../components/menu";
 
 const IndexPage = () => (
@@ -13,7 +13,6 @@ const IndexPage = () => (
     <Comp.Container>
       <Menu />
       <Hero />
-      <HomeProjects />
     </Comp.Container>
   </Layout>
 );
