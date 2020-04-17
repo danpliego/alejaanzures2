@@ -55,7 +55,7 @@ export const HomeProjects: React.FC = () => {
         <ProjectCard
           image={MyBusiness}
           name="MyBusiness"
-          description="..."
+          description="Branding and Content Management"
           url="/mybusiness"
         />
       </Comp.Row>

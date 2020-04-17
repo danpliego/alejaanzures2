@@ -42,7 +42,7 @@ export const ProjectLayout: React.FC<ProjectLayoutProps> = ({
 };
 
 const ProjectHero = styled(Comp.Row)`
-  padding: 11rem 0 6rem;
+  padding: 6rem 0;
 
   h1 {
     font-size: 3rem;

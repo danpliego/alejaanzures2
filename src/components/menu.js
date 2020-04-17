@@ -26,10 +26,6 @@ export default Menu;
 
 const MenuContainer = styled(FlexAlignChild)`
   padding: 1.7rem 1rem 1.7rem 0;
-  position: fixed;
-  z-index: 1;
-  width: calc(100% - 2rem);
-  max-width: 1200px;
 `;
 
 export const MenuRight = styled(FlexAlignChild)`
