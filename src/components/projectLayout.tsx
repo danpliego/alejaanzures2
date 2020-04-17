@@ -34,7 +34,7 @@ export const ProjectLayout: React.FC<ProjectLayoutProps> = ({
       <ProjectFooter>
         <Link to="/#work">
           <img src={ArrowLeft} style={{ marginRight: "1rem" }} />
-          Go back to projects
+          Volver a proyectos
         </Link>
       </ProjectFooter>
     </Comp.Container>
@@ -63,9 +63,35 @@ const HeroContent = styled.div`
 
 export const ProjectColumn = styled(Comp.Column)`
   margin-bottom: 2rem;
+  flex: 1;
+
+  img,
+  video {
+    width: 100%;
+  }
+
+  p {
+    margin-bottom: 0;
+    margin-top: 0.5rem;
+  }
 `;
 
 const ProjectFooter = styled.div`
   padding: 3rem 0;
   text-align: center;
+
+  a {
+    padding: 1rem;
+    border: 1px solid #000;
+    display: inline-block;
+  }
+`;
+
+export const ProjectSection = styled.div`
+  padding: 3rem 0;
+  border-top: 1px solid #000;
+
+  h3 {
+    margin-bottom: 3rem;
+  }
 `;

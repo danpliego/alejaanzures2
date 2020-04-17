@@ -51,7 +51,6 @@ export const MenuItem = styled(Link)`
   }
 
   &:hover {
-    text-decoration: line-through;
-    transform: translate(0px, -1px);
+    transform: translate(0px, -3px);
   }
 `;

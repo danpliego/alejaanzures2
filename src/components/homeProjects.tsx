@@ -5,25 +5,35 @@ import { Link } from "gatsby";
 
 // eslint-disable-next-line
 const MyBusiness = require("../images/thumbnails/mybusiness.jpg");
+// eslint-disable-next-line
+const VWFacebook = require("../images/thumbnails/vw-facebook.jpg");
+// eslint-disable-next-line
+const VWTwitter = require("../images/thumbnails/vw-twitter.jpg");
+// eslint-disable-next-line
+const Walmart = require("../images/thumbnails/walmart.jpg");
+// eslint-disable-next-line
+const SamsMicro = require("../images/thumbnails/sams-micrositio.jpg");
+// eslint-disable-next-line
+const SamsPitch = require("../images/thumbnails/sams-pitch.jpg");
 
 export const HomeProjects: React.FC = () => {
   return (
     <ProjectsContainer id="work">
       <Comp.Row mobile padded>
         <ProjectCard
-          image={MyBusiness}
+          image={VWFacebook}
           name="Volkswagen"
           description="Facebook e Instagram"
           url="/volkswagen-facebook"
         />
         <ProjectCard
-          image={MyBusiness}
+          image={VWTwitter}
           name="Volkswagen"
           description="Twitter"
           url="/volkswagen-instagram"
         />
         <ProjectCard
-          image={MyBusiness}
+          image={Walmart}
           name="Walmart"
           description="Subjects para campaña de Buen Fin y Black Week"
           url="/walmart"
@@ -31,9 +41,21 @@ export const HomeProjects: React.FC = () => {
       </Comp.Row>
       <Comp.Row mobile padded>
         <ProjectCard
-          image={MyBusiness}
+          image={SamsMicro}
           name="Sam's"
           description="Micrositio"
+          url="/sams-micrositio"
+        />
+        <ProjectCard
+          image={SamsPitch}
+          name="Sam's"
+          description="Pitch"
+          url="/sams-pitch"
+        />
+        <ProjectCard
+          image={MyBusiness}
+          name="MyBusiness"
+          description="..."
           url="/sams"
         />
       </Comp.Row>
@@ -77,7 +99,7 @@ const ProjectCard: React.FC<ProjectProps> = ({
             <ProjectImage>
               <img src={image} />
               <HoverActions>
-                <span>View project</span>
+                <span>Ver Proyecto</span>
               </HoverActions>
             </ProjectImage>
             <h4 style={{ marginBottom: "0.5rem" }}>{name}</h4>
@@ -103,8 +125,7 @@ const ProjectCardContainer = styled(Comp.Column)`
   }
 
   &:hover {
-    text-decoration: line-through;
-    transform: translate(0px, -1px);
+    transform: translate(0px, -3px);
   }
 `;
 

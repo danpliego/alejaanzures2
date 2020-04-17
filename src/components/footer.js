@@ -3,7 +3,7 @@ import styled from "styled-components";
 
 const Footer = () => (
   <FooterContainer id="about">
-    © {new Date().getFullYear()} — danielpliego.com
+    © {new Date().getFullYear()} — alejaanzures.com
   </FooterContainer>
 );
 

@@ -49,7 +49,7 @@ export const GlobalStyle = createGlobalStyle`
     color: inherit;
 
     &:hover {
-      text-decoration: line-through;
+      text-decoration: underline;
     }
   }
   article,
