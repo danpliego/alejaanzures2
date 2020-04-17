@@ -12,7 +12,7 @@ const Hero = () => (
           <img src={Monstera} width="100px" />
         </div>
         <h1 className="reset-m">Alejandra Anzures</h1>
-        <p className="font-lg">Redactora creativa</p>
+        <p className="font-lgb">Redactora creativa</p>
         <p>
           Siempre me ha gustado escribir y eso me llevó a ser copywriter
           creativo. Actualmente hago storytelling, guiones, newsletter, mails y
@@ -20,8 +20,6 @@ const Hero = () => (
           es escribir freestyle, reseñas o ideas con un tono divertido.
         </p>
         <p>Aquí un poco de lo que hago.</p>
-
-        <div style={{ height: "1000px", background: "red" }}></div>
       </Comp.TextCenter>
     </HeroContent>
   </HeroContainer>
@@ -29,10 +27,12 @@ const Hero = () => (
 
 export default Hero;
 
-const HeroContainer = styled(Comp.FlexAlignChild)`
+const HeroContainer = styled.div`
   padding: 8rem 0 0;
   @media ${theme.breakpoint.upFromMobile} {
     padding: 10rem 0 4rem;
+    max-width: 66.66%;
+    margin: 0 auto;
   }
 `;
 

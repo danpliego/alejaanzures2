@@ -6,6 +6,7 @@ import * as Comp from "../components/layoutComponents";
 import Hero from "../components/hero";
 // import { HomeProjects } from "../components/homeProjects";
 import Menu from "../components/menu";
+import { HomeProjects } from "../components/homeProjects";
 
 const IndexPage = () => (
   <Layout>
@@ -13,6 +14,7 @@ const IndexPage = () => (
     <Comp.Container>
       <Menu />
       <Hero />
+      <HomeProjects />
     </Comp.Container>
   </Layout>
 );

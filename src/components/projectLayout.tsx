@@ -4,7 +4,7 @@ import * as Comp from "./layoutComponents";
 import Menu from "./menu";
 import { Link } from "gatsby";
 
-// const ArrowLeft = require("../images/arrow-left.svg");
+const ArrowLeft = require("../images/arrow-left.svg");
 
 interface ProjectLayoutProps {
   name: string;
