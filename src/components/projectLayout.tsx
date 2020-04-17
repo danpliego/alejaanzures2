@@ -81,6 +81,7 @@ export const ProjectColumn = styled(Comp.Column)`
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: 1rem;
 
     p {
       margin: 0;

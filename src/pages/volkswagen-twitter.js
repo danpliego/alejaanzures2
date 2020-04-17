@@ -78,7 +78,7 @@ const IndexPage = () => (
         </>
       }
     >
-      <Comp.Row padded>
+      <Comp.Row padded mobile>
         <ProjectColumn padded>
           <img src={Twitter1} />
           <br />
@@ -89,7 +89,7 @@ const IndexPage = () => (
           <img src={Twitter2} />
         </ProjectColumn>
       </Comp.Row>
-      <Comp.Row padded>
+      <Comp.Row padded mobile>
         <ProjectColumn padded>
           <video controls>
             <source src={Twitter18} />
@@ -99,7 +99,7 @@ const IndexPage = () => (
           <img src={Twitter4} />
         </ProjectColumn>
       </Comp.Row>
-      <Comp.Row padded>
+      <Comp.Row padded mobile>
         <ProjectColumn padded>
           <img src={Twitter5} />
         </ProjectColumn>
@@ -114,7 +114,7 @@ const IndexPage = () => (
           <img className="img-fluid" src={Twitter11} />
         </ProjectColumn>
       </Comp.Row>
-      <Comp.Row padded>
+      <Comp.Row padded mobile>
         <ProjectColumn padded>
           <img className="img-fluid" src={Twitter8} />
         </ProjectColumn>
@@ -122,7 +122,7 @@ const IndexPage = () => (
           <img className="img-fluid" src={Twitter13} />
         </ProjectColumn>
       </Comp.Row>
-      <Comp.Row padded>
+      <Comp.Row padded mobile>
         <ProjectColumn padded>
           <img className="img-fluid" src={Twitter12} />
           <br />
@@ -133,7 +133,7 @@ const IndexPage = () => (
           <img className="img-fluid" src={Twitter14} />
         </ProjectColumn>
       </Comp.Row>
-      <Comp.Row padded>
+      <Comp.Row padded mobile>
         <ProjectColumn padded>
           <img className="img-fluid" src={Twitter16} />
         </ProjectColumn>
@@ -141,7 +141,7 @@ const IndexPage = () => (
           <img className="img-fluid" src={Twitter15} />
         </ProjectColumn>
       </Comp.Row>
-      <Comp.Row padded>
+      <Comp.Row padded mobile>
         <ProjectColumn padded>
           <img className="img-fluid" src={Twitter17} />
         </ProjectColumn>
@@ -151,7 +151,7 @@ const IndexPage = () => (
           </video>
         </ProjectColumn>
       </Comp.Row>
-      <Comp.Row padded>
+      <Comp.Row padded mobile>
         <ProjectColumn padded>
           <img className="img-fluid" src={Twitter20} />
         </ProjectColumn>
@@ -159,7 +159,7 @@ const IndexPage = () => (
           <img className="img-fluid" src={Twitter21} />
         </ProjectColumn>
       </Comp.Row>
-      <Comp.Row padded>
+      <Comp.Row padded mobile>
         <ProjectColumn padded>
           <video controls className="img-fluid">
             <source src={Twitter23} />
