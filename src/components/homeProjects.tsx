@@ -30,7 +30,7 @@ export const HomeProjects: React.FC = () => {
           image={VWTwitter}
           name="Volkswagen"
           description="Twitter"
-          url="/volkswagen-instagram"
+          url="/volkswagen-twitter"
         />
         <ProjectCard
           image={Walmart}
@@ -56,7 +56,7 @@ export const HomeProjects: React.FC = () => {
           image={MyBusiness}
           name="MyBusiness"
           description="..."
-          url="/sams"
+          url="/mybusiness"
         />
       </Comp.Row>
     </ProjectsContainer>
