@@ -16,7 +16,7 @@ const Menu = () => (
       <MenuItem to="#about" className="hide-mobile">
         Acerca de mi
       </MenuItem>
-      <MenuItem as="a" href="mailto:danielpliego@gmail.com">
+      <MenuItem as="a" href="mailto:alejaanzures@gmail.com">
         Contacto
       </MenuItem>
     </MenuRight>

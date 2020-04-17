@@ -33,8 +33,77 @@ const IndexPage = () => (
         </>
       }
     >
-      <Comp.Row padded>
-        <ProjectColumn padded>{/* <img src={Yam1} /> */}</ProjectColumn>
+      <Comp.Row padded mobile>
+        <ProjectColumn padded>
+          <div className="card">
+            <p className="reset-m">🙊Ay Huawei...📱con el precio del Huawei</p>
+          </div>
+        </ProjectColumn>
+        <ProjectColumn padded>
+          <div className="card">
+            <p className="reset-m">En caso de Buen Fin📅 Abra este correo💥</p>
+          </div>
+        </ProjectColumn>
+      </Comp.Row>
+      <Comp.Row padded mobile>
+        <ProjectColumn padded>
+          <div className="card">
+            <p className="reset-m">🙉 ¡Ya se armó el trío! Lleva 3 y paga 2*</p>
+          </div>
+        </ProjectColumn>
+        <ProjectColumn padded>
+          <div className="card">
+            <p className="reset-m">
+              Cambia tu vieja por una nueva 💻MacBook $16,990*
+            </p>
+          </div>
+        </ProjectColumn>
+      </Comp.Row>
+      <Comp.Row padded mobile>
+        <ProjectColumn padded>
+          <div className="card">
+            <p className="reset-m">
+              ¡Ay prro!🐶Estos precios tienen Pedigree😉
+            </p>
+          </div>
+        </ProjectColumn>
+        <ProjectColumn padded>
+          <div className="card">
+            <p className="reset-m">
+              👉Ponte Smart y estrena Smart TV antes que todos
+            </p>
+          </div>
+        </ProjectColumn>
+      </Comp.Row>
+      <Comp.Row padded mobile>
+        <ProjectColumn padded>
+          <div className="card">
+            <p className="reset-m">
+              Suelta el listón de tu pelo🎶 Pantene 2x$130
+            </p>
+          </div>
+        </ProjectColumn>
+        <ProjectColumn padded>
+          <div className="card">
+            <p className="reset-m">
+              ¡No manches!💦 Suavitel Complete 1.5L 2x$50
+            </p>
+          </div>
+        </ProjectColumn>
+      </Comp.Row>
+      <Comp.Row padded mobile>
+        <ProjectColumn padded>
+          <div className="card">
+            <p className="reset-m">Ya cayó... 💤 Colchón + Box $3,590*</p>
+          </div>
+        </ProjectColumn>
+        <ProjectColumn padded>
+          <div className="card">
+            <p className="reset-m">
+              Vas a ver triple🍷🍷🍷¡Últimas horas del 3x!
+            </p>
+          </div>
+        </ProjectColumn>
       </Comp.Row>
     </ProjectLayout>
   </Layout>

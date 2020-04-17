@@ -74,6 +74,18 @@ export const ProjectColumn = styled(Comp.Column)`
     margin-bottom: 0;
     margin-top: 0.5rem;
   }
+
+  .card {
+    border: 1px solid #000;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    p {
+      margin: 0;
+    }
+  }
 `;
 
 const ProjectFooter = styled.div`
