@@ -1,5 +1,5 @@
 import React from "react";
-import { FlexAlignChild, Flex1 } from "./layoutComponents";
+import { FlexAlignChild } from "./layoutComponents";
 import { Link } from "gatsby";
 import styled from "styled-components";
 
@@ -8,14 +8,9 @@ import { theme } from "./theme";
 
 const Menu = () => (
   <MenuContainer>
-    <Flex1></Flex1>
     <MenuRight>
-      <MenuItem to="#work" className="hide-mobile">
-        Work
-      </MenuItem>
-      <MenuItem to="#about" className="hide-mobile">
-        Acerca de mi
-      </MenuItem>
+      <MenuItem to="#work">Work</MenuItem>
+      <MenuItem to="#about">Acerca de mi</MenuItem>
       <MenuItem as="a" href="mailto:alejaanzures@gmail.com">
         Contacto
       </MenuItem>
@@ -26,6 +21,11 @@ export default Menu;
 
 const MenuContainer = styled(FlexAlignChild)`
   padding: 1.7rem 1rem 1.7rem 0;
+  justify-content: flex-end;
+
+  @media ${theme.breakpoint.onlyMobile} {
+    justify-content: center;
+  }
 `;
 
 export const MenuRight = styled(FlexAlignChild)`
