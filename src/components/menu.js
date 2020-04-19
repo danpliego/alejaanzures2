@@ -10,7 +10,7 @@ const Menu = () => (
   <MenuContainer>
     <MenuRight>
       <MenuItem to="#work">Work</MenuItem>
-      <MenuItem to="#about">Acerca de mi</MenuItem>
+      <MenuItem to="#about">Acerca de mí</MenuItem>
       <MenuItem as="a" href="mailto:alejaanzures@gmail.com">
         Contacto
       </MenuItem>

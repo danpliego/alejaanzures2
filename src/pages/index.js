@@ -7,6 +7,7 @@ import Hero from "../components/hero";
 // import { HomeProjects } from "../components/homeProjects";
 import Menu from "../components/menu";
 import { HomeProjects } from "../components/homeProjects";
+import Footer from "../components/footer";
 
 const IndexPage = () => (
   <Layout>
@@ -16,6 +17,7 @@ const IndexPage = () => (
       <Hero />
       <HomeProjects />
     </Comp.Container>
+    <Footer />
   </Layout>
 );
 

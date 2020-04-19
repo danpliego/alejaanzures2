@@ -3,7 +3,6 @@ import PropTypes from "prop-types";
 import { StaticQuery, graphql } from "gatsby";
 import { GlobalStyle } from "./globalStyle";
 import * as Comp from "./layoutComponents";
-import Footer from "./footer";
 import { ThemeProvider } from "styled-components";
 import { theme } from "./theme";
 
@@ -24,7 +23,6 @@ const Layout = ({ children }) => (
         <ThemeProvider theme={theme}>
           <Comp.MainWrapper>
             <main>{children}</main>
-            <Footer />
           </Comp.MainWrapper>
         </ThemeProvider>
       </>
@@ -33,7 +31,7 @@ const Layout = ({ children }) => (
 );
 
 Layout.propTypes = {
-  children: PropTypes.node.isRequired
+  children: PropTypes.node.isRequired,
 };
 
 export default Layout;
