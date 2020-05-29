@@ -5,6 +5,7 @@ import * as Comp from "./layoutComponents";
 import Sativa from "../images/sativa.jpg";
 import ViajaBonito from "../images/viajabonito.png";
 import Guaper from "../images/foto.jpg";
+import { HeroContainer } from "./hero";
 
 const Footer = () => (
   <>
@@ -51,6 +52,14 @@ const Footer = () => (
               productos hechos de forma artesanal. Esto con el fin de crear una
               comunidad de mujeres informadas que lo usan de manera responsable.
             </p>
+            <p>
+              Esta marca es un conjunto de todo lo que he aprendido
+              profesionalmente durante estos años, pues cree todo desde cero.
+              Baje el concepto creativo, hice el branding, el manifiesto y los
+              pilares de comunicación. Actualmente hago el diseño, contenido y
+              manejo la cuenta en instagram, además de hacer todas las piezas a
+              mano.
+            </p>
             <h5>
               <a href="https://www.instagram.com/sativamx_/">@sativamx_</a>
             </h5>
@@ -83,6 +92,32 @@ const Footer = () => (
             <img src={ViajaBonito} />
           </Comp.Column>
         </Comp.Row>
+      </Comp.Container>
+    </ViajaBonitoContainer>
+
+    <ViajaBonitoContainer>
+      <Comp.Container>
+        <div
+          style={{
+            textAlign: "center",
+            borderTop: "1px solid #000",
+            paddingTop: "5rem",
+          }}
+        >
+          <HeroContainer>
+            <h1>Blog Personal</h1>
+            <p>
+              También en mis tiempos libres me gusta escribir y compartir mi
+              forma de ver el mundo con los demás. Aquí les dejo mi blog con
+              algunas de las cosas que he subido.
+            </p>
+            <h5>
+              <a href="https://medium.com/@aleeanzures">
+                https://medium.com/@aleeanzures
+              </a>
+            </h5>
+          </HeroContainer>
+        </div>
       </Comp.Container>
     </ViajaBonitoContainer>
 

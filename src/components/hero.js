@@ -27,7 +27,7 @@ const Hero = () => (
 
 export default Hero;
 
-const HeroContainer = styled.div`
+export const HeroContainer = styled.div`
   padding: 2rem 0 4rem;
 
   @media ${theme.breakpoint.upFromMobile} {
