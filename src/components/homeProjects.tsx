@@ -62,7 +62,7 @@ export const HomeProjects: React.FC = () => {
           image={Malvestida}
           name="Malvestida"
           description="Redactora"
-          external_url="https://www.instagram.com/highgaang/"
+          external_url="https://malvestida.com/2020/11/cbd-en-mexico-como-y-donde-comprar/"
         />
       </Comp.Row>
       <Comp.Row mobile padded>

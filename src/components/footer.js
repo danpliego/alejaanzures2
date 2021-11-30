@@ -47,13 +47,18 @@ const Footer = () => (
               <Comp.Column style={{ flex: "1" }} padded>
                 <h5>Herramientas</h5>
                 <ul>
-                  <li>Estrategia de comunicación </li>
-                  <li>Desarrollo de conceptos creativos </li>
-                  <li>Storytelling</li>
-                  <li>Manejo y gestión de redes sociales</li>
-                  <li>Marketing digital </li>
-                  <li>Análisis de reportes </li>
-                  <li>Dirección creativa </li>
+                  <li>Figma </li>
+                  <li>Business suite </li>
+                  <li>Google ADS </li>
+                  <li>Analytics </li>
+                  <li>Tag manager</li>
+                  <li>Later </li>
+                  <li>UNUM </li>
+                  <li>Metricool </li>
+                  <li>SEM RUSH</li>
+                  <li>Asana </li>
+                  <li>Shopify </li>
+                  <li>Podia</li>
                 </ul>
               </Comp.Column>
             </Comp.Row>

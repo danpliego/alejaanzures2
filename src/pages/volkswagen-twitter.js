@@ -64,17 +64,15 @@ const IndexPage = () => (
       description={
         <>
           <p>
-            Al cumplir mis primeras dos semanas trabajando en la agencia, el VP
-            creativo me puso a prueba y me hizo la encargada oficial de la
-            parrilla de twitter de la marca. El reto aquí era elevar el
-            engagement de manera orgánica, pues los tweets no pasaban de tener
-            20 likes. El primer mes subió la interacción un 40% y para el
-            segundo mes, nuestros tweets ya tenían más de 100 likes. Para mí
-            esto fue una gran experiencia pues muchas veces tenía que convencer
-            al VP para que me dejara mandar tweets que “no nos iban a aprobar” y
-            que al final fueron los que más gustaron y generaron conversación.
+            En el 2019 tuve la fortuna de trabajar para la marca de Volkswagen,
+            aquí teníamos libertad creativa, el único requisito era el modelo
+            del auto y un feature de este. Como copywriter mi reto era pensar en
+            las ideas del contenido para Redes Sociales y sintetizarlas para que
+            el insight se entendiera con un simple tweet, un gráfico o un video.
+            Estas ideas se las contaba al equipo de diseño y las tomaban como
+            base para hacer de un posteo una obra de arte. <br />
+            <br /> Aquí algunos ejemplos.
           </p>
-          <p>Aquí algunos ejemplos.</p>
         </>
       }
     >
