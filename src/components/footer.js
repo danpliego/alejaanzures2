@@ -129,6 +129,11 @@ const Footer = () => (
         <h4>
           <a href="mailto:alejaanzures@gmail.com">alejaanzures@gmail.com</a>
         </h4>
+        <h4>
+          <a href="https://www.linkedin.com/in/alejandra-anzures-arciniega-545a99161/">
+            Linkedin
+          </a>
+        </h4>
         <div style={{ marginTop: "3rem" }}>
           © {new Date().getFullYear()} — alejaanzures.com
         </div>
