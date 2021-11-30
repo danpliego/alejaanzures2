@@ -34,7 +34,7 @@ export const GlobalStyle = createGlobalStyle`
     -webkit-text-size-adjust: 100%;
     touch-action: manipulation;
     overflow: hidden;
-    background: #F1ECE4;
+    background: #fff;
   }
   
   body {
@@ -108,12 +108,19 @@ export const GlobalStyle = createGlobalStyle`
     line-height: 120%;
     margin-top: 0;
     margin-bottom: 1rem;
-    font-family: "Noe Display";
+    /* font-family: "Noe Display"; */
     font-weight: 100;
   }
 
+
+  i {
+    text-decoration: underline;
+  }
+
+
   h1 {
-    font-size: 2.75rem;
+    font-size: 78px;
+    color: #F3AA96;
 
     @media ${theme.breakpoint.onlyMobile} {
       font-size: 2.25rem;
@@ -298,7 +305,7 @@ export const GlobalStyle = createGlobalStyle`
     font-weight: normal;
     word-wrap: break-word;
     font-kerning: normal;
-    background: #F8F5F1;
+    background: #Fff;
     -webkit-font-smoothing: antialiased;
 	  -moz-osx-font-smoothing: grayscale;
   }

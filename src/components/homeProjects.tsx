@@ -4,59 +4,85 @@ import * as Comp from "./layoutComponents";
 import { Link } from "gatsby";
 
 // eslint-disable-next-line
+const HoraSat = require("../images/thumbnails/horasat.jpg");
+// eslint-disable-next-line
+const Pachefest = require("../images/thumbnails/pachefest.jpg");
+// eslint-disable-next-line
+const HighGaang = require("../images/thumbnails/high-gaang.jpg");
+// eslint-disable-next-line
+const Neat = require("../images/thumbnails/neat.jpg");
+// eslint-disable-next-line
 const MyBusiness = require("../images/thumbnails/mybusiness.jpg");
 // eslint-disable-next-line
-const VWFacebook = require("../images/thumbnails/vw-facebook.jpg");
+const Malvestida = require("../images/thumbnails/malvestida.jpg");
 // eslint-disable-next-line
-const VWTwitter = require("../images/thumbnails/vw-twitter.jpg");
+const volks = require("../images/thumbnails/volkswagen.jpg");
 // eslint-disable-next-line
 const Walmart = require("../images/thumbnails/walmart.jpg");
 // eslint-disable-next-line
-const SamsMicro = require("../images/thumbnails/sams-micrositio.jpg");
-// eslint-disable-next-line
-const SamsPitch = require("../images/thumbnails/sams-pitch.jpg");
+const Sams = require("../images/thumbnails/sams.jpg");
 
 export const HomeProjects: React.FC = () => {
   return (
     <ProjectsContainer id="work">
       <Comp.Row mobile padded>
         <ProjectCard
-          image={VWFacebook}
-          name="Volkswagen"
-          description="Facebook e Instagram"
-          url="/volkswagen-facebook"
+          image={HoraSat}
+          name="La Hora SAT"
+          description="Co founder - Brand Content Manager"
+          external_url="http://instagram.com/lahorasat"
         />
         <ProjectCard
-          image={VWTwitter}
+          image={Pachefest}
+          name="Pachefest"
+          description="Organizadora y directora"
+          external_url="http://instagram.com/pachefestmx"
+        />
+        <ProjectCard
+          image={HighGaang}
+          name="High Gaang"
+          description="Founder y directora"
+          external_url="https://www.instagram.com/highgaang/"
+        />
+      </Comp.Row>
+      <Comp.Row mobile padded>
+        <ProjectCard
+          image={Neat}
+          name="Neat"
+          description="Content Manager"
+          external_url="https://www.instagram.com/neatpagos/"
+        />
+        <ProjectCard
+          image={MyBusiness}
+          name="My Business POS"
+          description="Dirección de MKT"
+          url="/mybusiness"
+        />
+        <ProjectCard
+          image={Malvestida}
+          name="Malvestida"
+          description="Redactora"
+          external_url="https://www.instagram.com/highgaang/"
+        />
+      </Comp.Row>
+      <Comp.Row mobile padded>
+        <ProjectCard
+          image={volks}
           name="Volkswagen"
-          description="Twitter"
+          description="Copywriter"
           url="/volkswagen-twitter"
         />
         <ProjectCard
           image={Walmart}
           name="Walmart"
-          description="Subjects para campaña de Buen Fin y Black Week"
+          description="Copywriter"
           url="/walmart"
         />
-      </Comp.Row>
-      <Comp.Row mobile padded>
         <ProjectCard
-          image={SamsMicro}
-          name="Sam's"
-          description="Micrositio"
-          url="/sams-micrositio"
-        />
-        <ProjectCard
-          image={SamsPitch}
-          name="Sam's"
-          description="Pitch"
+          image={Sams}
+          name="Sam's Club"
+          description="Copywriter"
           url="/sams-pitch"
-        />
-        <ProjectCard
-          image={MyBusiness}
-          name="MyBusiness"
-          description="Branding and Content Management"
-          url="/mybusiness"
         />
       </Comp.Row>
     </ProjectsContainer>
@@ -86,7 +112,7 @@ const ProjectCard: React.FC<ProjectProps> = ({
             <ProjectImage>
               <img src={image} />
               <HoverActions>
-                <span>View website</span>
+                <span>Ver proyecto</span>
               </HoverActions>
             </ProjectImage>
             <h4 style={{ marginBottom: "0.5rem" }}>{name}</h4>
@@ -113,7 +139,10 @@ const ProjectCard: React.FC<ProjectProps> = ({
   );
 };
 
-const ProjectsContainer = styled.div``;
+const ProjectsContainer = styled.div`
+  max-width: 1000px;
+  margin: 0 auto;
+`;
 
 const ProjectCardContainer = styled(Comp.Column)`
   width: 100%;

@@ -1,26 +1,35 @@
 import React from "react";
 import * as Comp from "./layoutComponents";
-import Monstera from "../images/monstera.png";
+import AlejaFoto from "../images/foto.jpg";
 import styled from "styled-components";
 import { theme } from "./theme";
 
 const Hero = () => (
   <HeroContainer>
     <HeroContent>
-      <Comp.TextCenter>
-        <div style={{ marginBottom: "1rem" }}>
-          <img src={Monstera} width="100px" />
+      <HeroRow mobile padded>
+        <div style={{ flex: 1, marginRight: "1rem" }}>
+          <h1 className="reset-m">
+            ¡Hola! Soy <br />
+            <i>Ale Anzures</i>
+          </h1>
         </div>
-        <h1 className="reset-m">Alejandra Anzures</h1>
-        <p className="font-lgb">Redactora creativa</p>
-        <p>
-          Siempre me ha gustado escribir y eso me llevó a ser copywriter
-          creativo. Actualmente hago storytelling, guiones, newsletter, mails y
-          contenido para redes sociales y sitios web; pero lo que más me gusta
-          es escribir freestyle, reseñas o ideas con un tono divertido.
+        <div>
+          <img src={AlejaFoto} width="400px" />
+        </div>
+      </HeroRow>
+      <Comp.Row mobile padded>
+        <p style={{ padding: "1rem" }}>
+          Mi especialidad es la comunicación, me encargo de contar la historia
+          de una marca a través de diferentes canales para lograr crear un
+          vínculo con la comunidad y hacer que esta crezca.
         </p>
-        <p>Aquí un poco de lo que hago.</p>
-      </Comp.TextCenter>
+        <p style={{ padding: "1rem" }}>
+          Actualmente soy Co-founder y Brand Content Manager de La hora SAT,
+          Organizadora del festival Pachefest y Directora general de la marca
+          High Gaang.{" "}
+        </p>
+      </Comp.Row>
     </HeroContent>
   </HeroContainer>
 );
@@ -31,9 +40,14 @@ export const HeroContainer = styled.div`
   padding: 2rem 0 4rem;
 
   @media ${theme.breakpoint.upFromMobile} {
-    max-width: 66.66%;
+    max-width: 1000px;
     margin: 0 auto;
   }
+`;
+
+const HeroRow = styled(Comp.Row)`
+  align-items: center;
+  margin-bottom: 50px;
 `;
 
 const HeroContent = styled.div``;

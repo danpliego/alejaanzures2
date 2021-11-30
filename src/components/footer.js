@@ -2,124 +2,121 @@ import React from "react";
 import styled, { css } from "styled-components";
 import * as Comp from "./layoutComponents";
 
-import Sativa from "../images/sativa.jpg";
-import ViajaBonito from "../images/viajabonito.png";
-import Guaper from "../images/foto.jpg";
-import { HeroContainer } from "./hero";
-
 const Footer = () => (
   <>
     <AboutContainer id="about">
       <Comp.Container>
-        <Comp.Row mobile padded style={{ alignItems: "center" }}>
+        <Comp.Row mobile padded>
           <Comp.Column style={{ flex: "1" }} padded>
-            <h1>Acerca de mí</h1>
-            <img src={Guaper} />
+            <div style={{ marginBottom: "2rem" }}>
+              <h5>Sobre mi</h5>
+              <p>
+                Desde que era pequeña me encantaba leer, cuando terminaba un
+                libro me daba cuenta que las palabras del autor podían tocar
+                fibras muy sensibles en las personas sin necesidad de
+                conocerlas. Pensaba que era una forma sublime de transmitir el
+                conocimiento. Así que a los 12 años comencé a tener un blog, ahí
+                escribía lo que aprendía, lo que sentía y todas las cosas que
+                leía.
+              </p>
+              <p>
+                Desde ese momento noté que me expresaba mejor de forma escrita y
+                comencé a buscar cursos y libros que me ayudaran a mejorar mi
+                técnica. Poco a poco fui metiéndome en el mundo de la
+                creatividad y empecé a aprender otras cosas que me ayudaron a
+                explotar al máximo la forma de comunicarme. Mi experiencia de
+                trabajo va desde la creación de un concepto para una marca, el
+                branding, la comunicación y los medios para darla a conocer.
+                Además de el liderazgo para guiar a los equipos a lograr una
+                meta en conjunto.
+              </p>
+            </div>
+            <Comp.Row mobile padded>
+              <Comp.Column style={{ flex: "1" }} padded>
+                <h5>skills</h5>
+                <ul>
+                  <li>Estrategia de comunicación </li>
+                  <li>Desarrollo de conceptos creativos </li>
+                  <li>Storytelling</li>
+                  <li>Manejo y gestión de redes sociales</li>
+                  <li>Marketing digital </li>
+                  <li>Análisis de reportes </li>
+                  <li>Dirección creativa </li>
+                </ul>
+              </Comp.Column>
+              <Comp.Column style={{ flex: "1" }} padded>
+                <h5>Herramientas</h5>
+                <ul>
+                  <li>Estrategia de comunicación </li>
+                  <li>Desarrollo de conceptos creativos </li>
+                  <li>Storytelling</li>
+                  <li>Manejo y gestión de redes sociales</li>
+                  <li>Marketing digital </li>
+                  <li>Análisis de reportes </li>
+                  <li>Dirección creativa </li>
+                </ul>
+              </Comp.Column>
+            </Comp.Row>
           </Comp.Column>
-          <Comp.Column style={{ flex: "2" }} padded>
-            <p>
-              Desde que era pequeña me encantaba leer, cuando terminaba un libro
-              me daba cuenta que las palabras del autor podían tocar fibras muy
-              sensibles en las personas sin necesidad de conocerlas. Pensaba que
-              era una forma sublime de transmitir el conocimiento. Así que a los
-              12 años comencé a tener un blog, ahí escribía lo que aprendía, lo
-              que sentía y todas las cosas que leía.
-            </p>
-            Desde ese momento noté que me expresaba mejor de forma escrita y
-            comencé a buscar cursos y libros que me ayudaran a mejorar mi
-            técnica. Poco a poco fui metiéndome en el mundo de la creatividad y
-            empecé a aprender otras cosas que me ayudaron a explotar al máximo
-            la forma de comunicarme.
-            <p>
-              Después de trabajar algunos años en el mundo de la publicidad
-              sentí la necesidad de usar mi tiempo libre para seguir creciendo,
-              y decidí comenzar mi proyecto personal.
-            </p>
-            <p>Aquí les cuento un poco sobre cada uno.</p>
+          <Comp.Column style={{ flex: "1" }} padded>
+            <Comp.Row mobile padded>
+              <Comp.Column style={{ flex: "2" }} padded>
+                <h5>experiencia laboral</h5>
+                <p>
+                  Social Noise (Agosto 2017 - Dic 2017)
+                  <br /> Copy Trainee
+                  <br />
+                  <br />
+                  Go Disruptive (Mayo 2018 - Abril 2019)
+                  <br /> Copywriter Jr.
+                  <br />
+                  <br />
+                  Residencia (Marzo 2019 - Septiembre 2019)
+                  <br /> Copywriter Jr.
+                  <br />
+                  <br />
+                  MyBusiness POS (Dic 2019 - )<br /> Directora de Mkt
+                  <br />
+                  <br />
+                  La hora SAT (Sept 2020 - )<br /> Co - founder y Brand Content
+                  Manager
+                  <br />
+                  <br />
+                  Pachefest (abril 2020 - )<br /> Organizadora y directora del
+                  festival
+                  <br />
+                  <br />
+                  Neat (Junio 2021 - Nov 2021)
+                  <br /> Content Manager Specialist
+                </p>
+              </Comp.Column>
+              <Comp.Column style={{ flex: "2" }} padded>
+                <h5>FORMACIÓN PROFESIONAL</h5>
+                <p>
+                  Licenciatura en Publicidad
+                  <br /> Universidad de la comunicación <br />
+                  <br />
+                  Curso de producción digital <br />
+                  Simulador de vuelo
+                  <br />
+                  <br />
+                  Diplomado de creatividad digital <br />
+                  Academia Mexicana de creatividad
+                  <br />
+                  <br />
+                  Programa de especialización de arte y fotografía <br />
+                  CENTRO
+                  <br />
+                  <br />
+                  Curso de guionismo <br />
+                  Complot Escuela de creatividad Barcelona
+                </p>
+              </Comp.Column>
+            </Comp.Row>
           </Comp.Column>
         </Comp.Row>
       </Comp.Container>
     </AboutContainer>
-    <SativaContainer>
-      <Comp.Container>
-        <Comp.Row mobile padded style={{ alignItems: "center" }}>
-          <Comp.Column style={{ flex: "1" }} padded>
-            <h1>Sativa Cannabis self-care</h1>
-
-            <p>
-              Sativa nace de la necesidad de educar a las mujeres sobre los usos
-              y beneficios del cannabis como planta medicinal y brindarles
-              productos hechos de forma artesanal. Esto con el fin de crear una
-              comunidad de mujeres informadas que lo usan de manera responsable.
-            </p>
-            <p>
-              Esta marca es un conjunto de todo lo que he aprendido
-              profesionalmente durante estos años, pues cree todo desde cero.
-              Baje el concepto creativo, hice el branding, el manifiesto y los
-              pilares de comunicación. Actualmente hago el diseño, contenido y
-              manejo la cuenta en instagram, además de hacer todas las piezas a
-              mano.
-            </p>
-            <h5>
-              <a href="https://www.instagram.com/sativamx_/">@sativamx_</a>
-            </h5>
-          </Comp.Column>
-          <Comp.Column style={{ flex: "2" }} padded>
-            <img src={Sativa} />
-          </Comp.Column>
-        </Comp.Row>
-      </Comp.Container>
-    </SativaContainer>
-
-    <ViajaBonitoContainer>
-      <Comp.Container>
-        <Comp.Row mobile padded style={{ alignItems: "center" }}>
-          <Comp.Column style={{ flex: "1" }} padded>
-            <h1>Viaja Bonito.</h1>
-            <p>
-              Es un proyecto enfocado a dar recomendaciones sobre lugares
-              interesantes para visitar en México y en el extranjero. Y lo más
-              importante, viajar como local para conocer la cultura del lugar
-              más allá de lo turístico.
-            </p>
-            <h5>
-              <a href="https://www.instagram.com/viajabonitoo/">
-                @viajabonitoo
-              </a>
-            </h5>
-          </Comp.Column>
-          <Comp.Column style={{ flex: "2" }} padded>
-            <img src={ViajaBonito} />
-          </Comp.Column>
-        </Comp.Row>
-      </Comp.Container>
-    </ViajaBonitoContainer>
-
-    <ViajaBonitoContainer>
-      <Comp.Container>
-        <div
-          style={{
-            textAlign: "center",
-            borderTop: "1px solid #000",
-            paddingTop: "5rem",
-          }}
-        >
-          <HeroContainer>
-            <h1>Blog Personal</h1>
-            <p>
-              También en mis tiempos libres me gusta escribir y compartir mi
-              forma de ver el mundo con los demás. Aquí les dejo mi blog con
-              algunas de las cosas que he subido.
-            </p>
-            <h5>
-              <a href="https://medium.com/@aleeanzures">
-                https://medium.com/@aleeanzures
-              </a>
-            </h5>
-          </HeroContainer>
-        </div>
-      </Comp.Container>
-    </ViajaBonitoContainer>
 
     <Contacto>
       <Comp.Container>
@@ -146,25 +143,28 @@ const sharedContainer = css`
 
 const AboutContainer = styled.div`
   ${sharedContainer}
-  background: #000;
+  background: #F3AA96;
+  color: #2c0c03;
   color: #fff;
   margin-top: 6rem;
-`;
-
-const SativaContainer = styled.div`
-  ${sharedContainer}
-  background: #B8BDFF;
-  color: #345c19;
-`;
-
-const ViajaBonitoContainer = styled.div`
-  ${sharedContainer}
+  font-size: 14px;
+  h5,
+  p,
+  li {
+    color: #2c0c03;
+  }
+  h5 {
+    text-transform: uppercase;
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-weight: 500;
+  }
 `;
 
 const Contacto = styled.div`
   width: 100%;
-  background: #000;
-  color: #fff;
+  background: #2c0c03;
+  color: #f3aa96;
   padding: 6rem 0;
   text-align: center;
 `;
