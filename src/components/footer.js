@@ -128,7 +128,7 @@ const Footer = () => (
         <h1>Contacto</h1>
         Celular y Whatsapp:
         <h4>
-          <a href="tel:52555615441513">+52 56 1544 1513</a>
+          <a href="tel:525579380914">+52 55 7938 0914</a>
         </h4>
         Correo electrónico:
         <h4>
